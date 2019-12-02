@@ -6,7 +6,7 @@ def startpage(request):
     return HttpResponse("<p ALIGN=CENTER>MAKE A SPACESHIP</p>")
 
 def index(request):
-    all = User.object.all()
+
     return HttpResponse("<p ALIGN=CENTER><font=10>MAKE YOUR OWN SPACESHIP</font></p>")
 
 
